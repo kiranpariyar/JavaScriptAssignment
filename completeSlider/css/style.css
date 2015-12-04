@@ -1,0 +1,77 @@
+.container{
+    max-width:1002px;
+    margin: auto;
+    padding: 100px 0px;
+    background: #e5e5e5;
+}
+
+div.slider {
+	width:900px;
+    margin: auto;
+	overflow: hidden;
+	border: 1px solid red;
+    position: relative;
+}
+div.slider div.sliderLong {
+	width: 10000px;
+	border: 1px solid blue;
+}
+div.slider img {
+	width:900px;
+	height:400px;
+    /*display: block;*/
+    /*float: left;*/
+}
+
+.container input.left{
+    position: absolute;
+    top:275px;
+    left: 185px;
+}
+
+.container input.right{
+    position: absolute;
+    top:275px;
+    right: 200px;
+    
+}
+
+#bottom-navigator{
+    position: absolute;
+    bottom: 0px;
+}
+
+#bottom-navigator ul li{
+    float:left;
+    margin: 5px;
+}
+
+#bottom-navigator ul li a{
+    display: block;
+    height: 8px;
+    width: 8px;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
+#previous{
+    position: absolute;
+    left: 0px;
+    top:185px;
+}
+
+#previous img{
+    width: 50px;
+    height: 50px;
+}
+
+#next{
+    position:absolute;
+    right: 0px;
+    top:185px;
+}
+
+#next img{
+    width: 50px;
+    height: 50px;
+}
