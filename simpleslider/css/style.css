@@ -1,0 +1,34 @@
+.container{
+    max-width:1002px;
+    margin: auto;
+    padding: 100px 0px;
+    background: #e5e5e5;
+}
+
+div.slider {
+	width:900px;
+    margin: auto;
+	overflow: hidden;
+	border: 1px solid red;
+}
+div.slider div.sliderLong {
+	width: 10000px;
+	border: 1px solid blue;
+}
+div.slider img {
+	width:900px;
+	height:400px;
+}
+
+.container input.left{
+    position: absolute;
+    top:275px;
+    left: 185px;
+}
+
+.container input.right{
+    position: absolute;
+    top:275px;
+    right: 200px;
+    
+}
