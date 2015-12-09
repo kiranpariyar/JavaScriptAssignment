@@ -1,0 +1,46 @@
+.main-container{
+    width: 100%;
+}
+
+.score-div{
+    width: 100px;
+}
+
+.score-div span{
+    font-weight: bold;
+}
+
+.road-container{
+    margin: auto;
+    width: 614px;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+    background-color: aqua;
+    border: 1px solid red;
+}
+
+.road{
+    position:absolute;
+    border: 1px solid green;
+    margin: auto;
+    width: 614px;
+    height: 100000px;
+    background: url(../images/roadback.png);
+    bottom:0px;
+}
+
+
+.box{
+    height: 97px;
+    width: 33px;
+    background: pink;
+    position: absolute;
+    bottom:0px;
+    background: url(../images/enemycar.png);
+}
+
+.green {
+/*	background-color: green;*/
+    background: url(../images/car.png);
+}
